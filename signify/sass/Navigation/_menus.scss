@@ -51,18 +51,18 @@ div#social-menu-wrapper .menu-inside-wrapper {
     width: auto;
 }
 
-.main-navigation .menu-item-has-children > a,
-.main-navigation .page_item_has_children > a {
+.main-navigation .menu-item-has-children>a,
+.main-navigation .page_item_has_children>a {
     padding-right: 49px;
 }
 
-.site-header-top-main .top-navigation .menu-item-has-children > a,
-.site-header-top-main .top-navigation .page_item_has_children > a {
+.site-header-top-main .top-navigation .menu-item-has-children>a,
+.site-header-top-main .top-navigation .page_item_has_children>a {
     padding-right: 39px;
 }
 
 .main-navigation a,
-.top-navigation a  {
+.top-navigation a {
     display: block;
     font-weight: normal;
     font-stretch: normal;
@@ -125,25 +125,25 @@ div#social-menu-wrapper .menu-inside-wrapper {
     border-top: none;
 }
 
-.main-navigation ul li:hover > ul,
-.main-navigation ul li.focus > ul,
-.top-navigation ul li:hover > ul,
-.top-navigation ul li.focus > ul {
+.main-navigation ul li:hover>ul,
+.main-navigation ul li.focus>ul,
+.top-navigation ul li:hover>ul,
+.top-navigation ul li.focus>ul {
     left: auto;
     right: 0;
 }
 
-.main-navigation ul ul li:hover > ul,
-.main-navigation ul ul li.focus > ul,
-.top-navigation ul ul li:hover > ul,
-.top-navigation ul ul li.focus > ul {
+.main-navigation ul ul li:hover>ul,
+.main-navigation ul ul li.focus>ul,
+.top-navigation ul ul li:hover>ul,
+.top-navigation ul ul li.focus>ul {
     left: 100%;
 }
 
-.main-navigation ul ul .current_page_item > a,
-.main-navigation ul ul .current-menu-item > a,
-.top-navigation ul ul .current_page_item > a,
-.top-navigation ul ul .current-menu-item > a {
+.main-navigation ul ul .current_page_item>a,
+.main-navigation ul ul .current-menu-item>a,
+.top-navigation ul ul .current_page_item>a,
+.top-navigation ul ul .current-menu-item>a {
     font-weight: 500;
 }
 
@@ -168,7 +168,7 @@ div#social-menu-wrapper .menu-inside-wrapper {
 }
 
 #primary-menu-wrapper .menu-inside-wrapper {
-     padding: 14px 0;
+    padding: 14px 0;
 }
 
 .is-open .menu-inside-wrapper {
@@ -242,7 +242,7 @@ body.menu-open {
     padding: 7px 14px;
 }
 
-.main-navigation .menu-item-has-children .menu-item-has-children > .dropdown-toggle {
+.main-navigation .menu-item-has-children .menu-item-has-children>.dropdown-toggle {
     padding: 12px 19px;
 }
 
@@ -270,7 +270,7 @@ body.menu-open {
     display: block;
 }
 
-#primary-search-wrapper > .social-navigation {
+#primary-search-wrapper>.social-navigation {
     display: none;
     float: left;
 }
@@ -292,7 +292,7 @@ body.menu-open {
     margin: 0;
 }
 
-.site-navigation .footer-menu > li {
+.site-navigation .footer-menu>li {
     display: inline-block;
 
     a {
@@ -310,6 +310,13 @@ body.menu-open {
     text-decoration: none;
     text-transform: uppercase;
     outline-offset: -1px;
+}
+
+.social-navigation a[href^="mailto:"]:before,
+.social-navigation a[href^="tel:"]:before,
+.social-navigation a[href$="/feed"]:before {
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
 }
 
 /**
@@ -354,7 +361,7 @@ body.menu-open {
     text-align: center;
 }
 
-.site-footer-menu .wrapper > #social-footer-navigation {
+.site-footer-menu .wrapper>#social-footer-navigation {
     padding: 21px 0;
     margin: 0;
     text-align: center;
@@ -368,6 +375,8 @@ body.menu-open {
 
 .social-navigation a:before {
     content: "\f0c1";
+    font-family: 'Font Awesome 6 Brands';
+    font-weight: 400;
 }
 
 .social-navigation a[href*="codepen.io"]:before {
@@ -463,6 +472,10 @@ body.menu-open {
     content: "\f0e0";
 }
 
+.social-navigation a[href^="tel:"]:before {
+    content: "\f095";
+}
+
 .social-navigation a[href*="spotify.com"]:before {
     content: "\f1bc";
 }
@@ -471,7 +484,7 @@ body.menu-open {
     content: "\f1e8";
 }
 
-.social-navigation a[href$="/feed/"]:before {
+.social-navigation a[href$="/feed"]:before {
     content: "\f09e";
 }
 
@@ -497,6 +510,31 @@ body.menu-open {
 
 .social-navigation a[href*="etsy.com"]:before {
     content: "\f2d7";
+}
+
+.social-navigation a[href*="tiktok.com"]::before {
+    content: "\e07b";
+}
+
+.social-navigation a[href*="x.com"]::before {
+    content: "\e61b";
+}
+
+.social-navigation a[href*="threads.com"]::before {
+    content: "\e618";
+}
+
+.social-navigation a[href*="bsky.app"]::before {
+    content: "\e671";
+}
+
+.social-navigation a[href*="snapchat.com"]::before {
+    content: "\f2ab";
+}
+
+.social-navigation a[href*="t.me"]::before,
+.social-navigation a[href*="telegram.org"]::before {
+    content: "\f2c6";
 }
 
 /**
@@ -555,7 +593,7 @@ body.menu-open {
     margin-left: 0;
 }
 
-.comments-title + .comment-navigation {
+.comments-title+.comment-navigation {
     border-bottom: 0;
     margin-bottom: 0;
 }
@@ -567,8 +605,8 @@ body.menu-open {
     display: inline-block;
 }
 
-.image-navigation .nav-previous:not(:empty) + .nav-next:not(:empty):before,
-.comment-navigation .nav-previous:not(:empty) + .nav-next:not(:empty):before {
+.image-navigation .nav-previous:not(:empty)+.nav-next:not(:empty):before,
+.comment-navigation .nav-previous:not(:empty)+.nav-next:not(:empty):before {
     content: "\002f";
     display: inline-block;
     opacity: 0.7;

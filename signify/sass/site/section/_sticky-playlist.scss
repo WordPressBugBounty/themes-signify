@@ -6,15 +6,15 @@
     overflow: initial;
     padding: 0;
     width: 100%;
-    bottom: 0;
+	bottom: 0;
     left: 0;
     position: fixed;
     z-index: 200;
 }
 
 #sticky-playlist-section .hentry {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 #sticky-playlist-section .wp-playlist,
@@ -77,24 +77,24 @@
 }
 
 #sticky-playlist-section .mejs-container.signify-mejs-container .mejs-inner {
-    margin-right: 55px;
+	margin-right: 55px;
 }
 
 #sticky-playlist-section .mejs-container.signify-mejs-container .mejs-toggle-playlist {
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 100%;
-    width: 56px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 56px;
 }
 
 #sticky-playlist-section .mejs-container.signify-mejs-container .mejs-toggle-playlist button {
-    background-color: transparent;
-    background-image: none;
-    border-radius: 0;
-    background: 0 0;
+	background-color: transparent;
+	background-image: none;
+	border-radius: 0;
+	background: 0 0;
     padding: 0;
-    width: 55px;
+	width: 55px;
 
     &:hover,
     &:focus {
@@ -122,7 +122,7 @@
     display: block;
 }
 
-#sticky-playlist-section .wp-playlist-current-item,
+#sticky-playlist-section .wp-playlist-current-item, 
 #sticky-playlist-section .signify-mejs-sticky-playlist-container {
     -webkit-box-flex: 0;
     -ms-flex: 0 1 50%;

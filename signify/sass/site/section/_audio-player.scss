@@ -284,7 +284,7 @@
     box-sizing: content-box;
     font-size: 13px;
     font-size: 0.8125rem;
-    font-weight: 600;
+	font-weight: 600;
     font-weight: 700;
     height: 24px;
     overflow: hidden;
@@ -326,7 +326,7 @@
 .mejs-time-loaded,
 .mejs-time-marker,
 .mejs-time-total {
-    -webkit-border-radius: 0;
+	-webkit-border-radius: 0;
     border-radius: 0;
     cursor: pointer;
     display: block;
@@ -1064,11 +1064,11 @@ body .wp-playlist-item {
 }
 
 body .wp-playlist-dark .wp-playlist-playing {
-    background: transparent;
+	background: transparent;
 }
 
 body .wp-playlist-dark .wp-playlist-item {
-    padding: 14px 28px;
+	padding: 14px 28px;
 }
 
 body .wp-playlist-item,
@@ -1099,38 +1099,38 @@ body .wp-playlist-playing {
 }
 
 .signify-mejs-container.mejs-container .mejs-toggle-playlist button:before {
-    content: "\f0ca";
+	content: "\f0ca";
 }
 
 .signify-mejs-container.mejs-container .mejs-toggle-playlist.is-open button:before {
-    content:"\f00d";
+	content:"\f00d";
 }
 
 .signify-mejs-container.mejs-container .mejs-next button:before {
-    content:"\f051";
+	content:"\f051";
 }
 
 .signify-mejs-container.mejs-container .mejs-previous button:before {
-    content:"\f048";
+	content:"\f048";
 }
 
 .signify-mejs-container.mejs-container .mejs-play button:before,
 .signify-mejs-container.mejs-container .mejs-replay button:before {
-    content:"\f04b";
+	content:"\f04b";
 }
 
 .signify-mejs-container.mejs-container .mejs-pause button:before {
-    content:"\f04c";
+	content:"\f04c";
 }
 
 .signify-mejs-container.mejs-container .mejs-volume-button button:before {
-    content:"\f028";
+	content:"\f028";
 }
 
 .signify-mejs-container.mejs-container .mejs-volume-button.mejs-unmute button:before {
-    content:"\f026";
+	content:"\f026";
 }
 
 .signify-mejs-container.mejs-container .mejs-fullscreen-button button:before {
-    content:"\f0b2";
+	content:"\f0b2";
 }

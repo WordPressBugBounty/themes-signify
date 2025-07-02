@@ -113,8 +113,8 @@ figure.wp-block-table.is-style-stripes tbody tr:nth-child(2n+1) {
 }
 
 @include media(desktop) {
-    .navigation-classic .site-header .sub-menu,
-    .navigation-classic .site-header .children,
+    .navigation-classic #site-navigation .sub-menu,
+    .navigation-classic #site-navigation .children,
     .site-header .header-top-bar .sub-menu,
     .site-header .header-top-bar .children {
         background-color: map-get($theme-background-color, background-secondary-color); // #f6f6f6
@@ -753,6 +753,7 @@ input[type="submit"],
 button[type="submit"],
 .portfolio-section .entry-title a,
 button#wp-custom-header-video-button,
+.wp-block-button__link,
 #infinite-handle > span > button,
 nav.navigation.posts-navigation .nav-links a,
 ul.page-numbers .page-numbers.current,
@@ -818,6 +819,7 @@ button,
 input[type="submit"],
 button[type="submit"],
 #primary-search-wrapper .search-container button,
+.wp-block-button__link,
 #infinite-handle > span > button,
 nav.navigation.posts-navigation .nav-links a,
 ul.page-numbers li,
@@ -1029,7 +1031,8 @@ input[type="color"]:focus,
 #site-generator #social-footer-navigation a:before,
 #primary-menu-wrapper #site-header-cart-wrapper,
 .site-header-top-main,
-.site-content + .recent-blog-content-wrapper {
+.site-content + .recent-blog-content-wrapper,
+#page > #site-header-menu #primary-menu-wrapper {
     border-color: map-get($theme-color, theme-primary-border-color);
 }
 

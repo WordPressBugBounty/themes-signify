@@ -1,11 +1,11 @@
-# Copyright (C) 2015-2022 WEN Themes
+# Copyright (C) 2015-2025 WEN Themes
 # This file is distributed under the GNU General Public License, version 3 (GPLv3).
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Signify\n"
 "Report-Msgid-Bugs-To: https://wenthemes.com/contact/\n"
-"POT-Creation-Date: 2024-01-18 20:48+0545\n"
+"POT-Creation-Date: 2025-07-02 19:52+0545\n"
 "PO-Revision-Date: 2016-12-07 01:05-0500\n"
 "Last-Translator: WEN Themes <info@wenthemes.com>\n"
 "Language-Team: WEN Themes <info@wenthemes.com>\n"
@@ -14,9 +14,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.4.2\n"
-"X-Poedit-KeywordsList: __;_e;_x;esc_html_e;esc_html__;esc_attr_e;esc_attr__;_ex:1,2c;_nx:4c,1,2;"
-"_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Generator: Poedit 3.6\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x;esc_html_e;esc_html__;esc_attr_e;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: .\n"
 "X-Textdomain-Support: yes\n"
@@ -53,149 +53,149 @@ msgstr[1] ""
 msgid "Comments are closed."
 msgstr ""
 
-#: ../functions.php:76
+#: ../functions.php:80
 msgid "Primary"
 msgstr ""
 
-#: ../functions.php:77
+#: ../functions.php:81
 msgid "Footer Social Menu"
 msgstr ""
 
-#: ../functions.php:129
+#: ../functions.php:133
 msgid "Extra small"
 msgstr ""
 
-#: ../functions.php:130
+#: ../functions.php:134
 msgid "XSS"
 msgstr ""
 
-#: ../functions.php:135
+#: ../functions.php:139
 msgid "Small"
 msgstr ""
 
-#: ../functions.php:136
+#: ../functions.php:140
 msgid "S"
 msgstr ""
 
-#: ../functions.php:141
+#: ../functions.php:145
 msgid "Normal"
 msgstr ""
 
-#: ../functions.php:142
+#: ../functions.php:146
 msgid "M"
 msgstr ""
 
-#: ../functions.php:147
+#: ../functions.php:151
 msgid "Large"
 msgstr ""
 
-#: ../functions.php:148
+#: ../functions.php:152
 msgid "L"
 msgstr ""
 
-#: ../functions.php:153
+#: ../functions.php:157
 msgid "Huge"
 msgstr ""
 
-#: ../functions.php:154
+#: ../functions.php:158
 msgid "XL"
 msgstr ""
 
-#: ../functions.php:166
+#: ../functions.php:170
 msgid "White"
 msgstr ""
 
-#: ../functions.php:171
+#: ../functions.php:175
 msgid "Black"
 msgstr ""
 
-#: ../functions.php:176
+#: ../functions.php:180
 msgid "Eighty Black"
 msgstr ""
 
-#: ../functions.php:181
+#: ../functions.php:185
 msgid "Sixty Five Black"
 msgstr ""
 
-#: ../functions.php:186
+#: ../functions.php:190
 msgid "Gray"
 msgstr ""
 
-#: ../functions.php:191
+#: ../functions.php:195
 msgid "Medium Gray"
 msgstr ""
 
-#: ../functions.php:196
+#: ../functions.php:200
 msgid "Light Gray"
 msgstr ""
 
-#: ../functions.php:201
+#: ../functions.php:205
 msgid "Bright Pink"
 msgstr ""
 
-#: ../functions.php:206
+#: ../functions.php:210
 msgid "Dark Yellow"
 msgstr ""
 
-#: ../functions.php:211
+#: ../functions.php:215
 msgid "Yellow"
 msgstr ""
 
-#: ../functions.php:216
+#: ../functions.php:220
 msgid "Red"
 msgstr ""
 
-#: ../functions.php:221
+#: ../functions.php:225
 msgid "Blue"
 msgstr ""
 
-#: ../functions.php:226
+#: ../functions.php:230
 msgid "Dark Blue"
 msgstr ""
 
-#: ../functions.php:319
+#: ../functions.php:328
 msgid "Sidebar"
 msgstr ""
 
-#: ../functions.php:321
+#: ../functions.php:330
 msgid "Add widgets here."
 msgstr ""
 
-#: ../functions.php:326
+#: ../functions.php:336
 msgid "Footer 1"
 msgstr ""
 
-#: ../functions.php:328 ../functions.php:335 ../functions.php:342
+#: ../functions.php:338 ../functions.php:346 ../functions.php:354
 msgid "Add widgets here to appear in your footer."
 msgstr ""
 
-#: ../functions.php:333
+#: ../functions.php:344
 msgid "Footer 2"
 msgstr ""
 
-#: ../functions.php:340
+#: ../functions.php:352
 msgid "Footer 3"
 msgstr ""
 
-#: ../functions.php:365
+#: ../functions.php:378
 msgctxt "Open Sans: on or off"
 msgid "on"
 msgstr ""
 
-#: ../functions.php:371
+#: ../functions.php:384
 msgctxt "Playfair Display font: on or off"
 msgid "on"
 msgstr ""
 
-#: ../functions.php:476
+#: ../functions.php:490
 msgid "expand child menu"
 msgstr ""
 
-#: ../functions.php:477
+#: ../functions.php:491
 msgid "collapse child menu"
 msgstr ""
 
-#: ../functions.php:535 ../functions.php:558 ../functions.php:585
+#: ../functions.php:552 ../functions.php:577 ../functions.php:606
 msgid "Continue reading"
 msgstr ""
 

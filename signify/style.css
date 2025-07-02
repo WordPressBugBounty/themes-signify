@@ -4,9 +4,9 @@ Theme URI: https://wenthemes.com/item/wordpress-themes/signify/
 Author: WEN Themes
 Author URI: https://wenthemes.com/
 Description: Signify is a free Responsive Corporate WordPress theme that comes with a modern, sleek design and advanced functionalities. The theme is ideal for all business purposes as well as personal sites. With the responsive clean design and awesome features in Signify, you can create any corporate site in just a few clicks. You can find sections like Featured Content, Portfolio, Testimonials, Services, Hero Content, Header Media, Menu Options, and more in Signify WordPress Theme. This free corporate theme also comes with a Featured Slider option to help you display your business strengths in the quickest manner possible. You can display custom widgets in your desired areas as well. The custom widget in Signify allows you to display your social medias, products, ads, and more in the most alluring way possible. With all these amazing features, Signify is the perfect pick for corporate/business sites to perform at a professional level across a broad spectrum of interests and industries. Official Support Forum: https://themepalace.com/support-forum/ Full Demo: https://wenthemes.com/theme-demos/?demo=signify
-Version: 2.2.2
-Requires at least: 5.6
-Tested up to: 6.4
+Version: 2.3
+Requires at least: 5.9
+Tested up to: 6.8
 Requires PHP: 5.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -441,13 +441,14 @@ body.infinite-scroll.infinity-end .archive-posts-wrapper .section-content-wrappe
 .posts-navigation .nav-links .nav-next a:after,
 .comment-reply-title small a:before,
 .mejs-container .mejs-toggle-playlist button:before,
-.signify-mejs-container.mejs-container .mejs-play button:before, .signify-mejs-container.mejs-container .mejs-replay button:before,
+.signify-mejs-container.mejs-container .mejs-play button:before,
+.signify-mejs-container.mejs-container .mejs-replay button:before,
 #scrollup:before {
   display: inline-block;
-  font-family: 'FontAwesome';
+  font-family: 'Font Awesome 6 Free';
   font-style: normal;
   font-variant: normal;
-  font-weight: normal;
+  font-weight: 900;
   line-height: 1;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -2151,6 +2152,12 @@ body.menu-open {
   text-transform: uppercase;
   outline-offset: -1px; }
 
+.social-navigation a[href^="mailto:"]:before,
+.social-navigation a[href^="tel:"]:before,
+.social-navigation a[href$="/feed"]:before {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900; }
+
 /**
  - Social Menu
  */
@@ -2197,7 +2204,9 @@ body.menu-open {
   line-height: 42px; }
 
 .social-navigation a:before {
-  content: "\f0c1"; }
+  content: "\f0c1";
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400; }
 
 .social-navigation a[href*="codepen.io"]:before {
   content: "\f1cb"; }
@@ -2269,13 +2278,16 @@ body.menu-open {
 .social-navigation a[href^="mailto:"]:before {
   content: "\f0e0"; }
 
+.social-navigation a[href^="tel:"]:before {
+  content: "\f095"; }
+
 .social-navigation a[href*="spotify.com"]:before {
   content: "\f1bc"; }
 
 .social-navigation a[href*="twitch.tv"]:before {
   content: "\f1e8"; }
 
-.social-navigation a[href$="/feed/"]:before {
+.social-navigation a[href$="/feed"]:before {
   content: "\f09e"; }
 
 .social-navigation a[href*="amazon.com"]:before {
@@ -2295,6 +2307,25 @@ body.menu-open {
 
 .social-navigation a[href*="etsy.com"]:before {
   content: "\f2d7"; }
+
+.social-navigation a[href*="tiktok.com"]::before {
+  content: "\e07b"; }
+
+.social-navigation a[href*="x.com"]::before {
+  content: "\e61b"; }
+
+.social-navigation a[href*="threads.com"]::before {
+  content: "\e618"; }
+
+.social-navigation a[href*="bsky.app"]::before {
+  content: "\e671"; }
+
+.social-navigation a[href*="snapchat.com"]::before {
+  content: "\f2ab"; }
+
+.social-navigation a[href*="t.me"]::before,
+.social-navigation a[href*="telegram.org"]::before {
+  content: "\f2c6"; }
 
 /**
  - Post Navigation
@@ -3420,10 +3451,21 @@ ul.products li.product:after,
   max-width: 1600px; }
 
 .wrapper,
+#page > #site-header-menu,
 body:not(.header-media-text-disabled) .custom-header-media {
   margin: 0 auto;
   max-width: 1500px;
   width: 100%; }
+
+#page > #site-header-menu {
+  position: relative; }
+
+#page > #site-header-menu #primary-menu-wrapper {
+  border-bottom: 1px solid;
+  width: 100%; }
+
+#page > #site-header-menu #primary-menu-wrapper .menu-toggle {
+  margin: 0 auto; }
 
 .single .site-main .post-thumbnail,
 .page .site-main .post-thumbnail {
@@ -9218,11 +9260,11 @@ dl.variation p {
     -ms-flex-pack: center;
     justify-content: center; }
 
-  #site-generator #social-footer-navigation a span {
-    margin-top: 5px; }
-
   .header-style-two .site-branding {
     min-width: 420px; }
+
+  #site-generator #social-footer-navigation a span {
+    margin-top: 5px; }
 
   #search-top-container,
   #header-top .cart-contents {
@@ -10525,7 +10567,8 @@ dl.variation p {
  * 8.6 - >= 1200px
  */
 @media only screen and (min-width: 75em) {
-  .site-header .site-header-main .wrapper {
+  .site-header .site-header-main .wrapper,
+  #page > #site-header-menu {
     padding: 0 40px; }
 
   .header-style-two .site-header .site-header-main .wrapper #menu-toggle {
@@ -10813,7 +10856,11 @@ dl.variation p {
     padding-top: 49px; }
 
   .transparent-header-color-scheme.header-style-one.has-header-top .site-header-main {
-    padding-top: 43px; } }
+    padding-top: 43px; }
+
+  #page > #site-header-menu #primary-menu-wrapper #site-navigation {
+    margin: 0 auto;
+    width: fit-content; } }
 /*--------------------------------------------------------------
 ## wide-width
 --------------------------------------------------------------*/
@@ -10864,7 +10911,8 @@ dl.variation p {
     padding: 0 50px; }
 
   /* Woocommerce styles end here */
-  .site-header .site-header-main .wrapper {
+  .site-header .site-header-main .wrapper,
+  #page > #site-header-menu {
     padding: 0 50px; }
 
   #primary-search-wrapper > .social-navigation {
@@ -11358,7 +11406,7 @@ dl.variation p {
     font-size: 3.0625rem; }
 
   body:not(.has-featured-slider):not(.has-header-media).theme-scheme-default .site-header + .section.portfolio-section .section-heading-wrapper,
-  body:not(.has-featured-slider):not(.has-header-media).theme-scheme-music .site-header + .section.portfolio-section .section-heading-wrapper,
+  body:not(.has-featured-slider):not(.has-header-media).theme-scheme-tune .site-header + .section.portfolio-section .section-heading-wrapper,
   body:not(.has-featured-slider):not(.has-header-media).theme-scheme-wedding .site-header + .section.portfolio-section .section-heading-wrapper {
     padding-bottom: 112px; }
 
@@ -11497,8 +11545,8 @@ figure.wp-block-table.is-style-stripes tbody tr:nth-child(2n+1) {
   border-color: #f9f9f9; }
 
 @media only screen and (min-width: 64em) {
-  .navigation-classic .site-header .sub-menu,
-  .navigation-classic .site-header .children,
+  .navigation-classic #site-navigation .sub-menu,
+  .navigation-classic #site-navigation .children,
   .site-header .header-top-bar .sub-menu,
   .site-header .header-top-bar .children {
     background-color: #f9f9f9; } }
@@ -12172,6 +12220,7 @@ input[type="submit"],
 button[type="submit"],
 .portfolio-section .entry-title a,
 button#wp-custom-header-video-button,
+.wp-block-button__link,
 #infinite-handle > span > button,
 nav.navigation.posts-navigation .nav-links a,
 ul.page-numbers .page-numbers.current,
@@ -12243,6 +12292,8 @@ button[type="submit"]:hover,
 button[type="submit"]:focus,
 #primary-search-wrapper .search-container button:hover,
 #primary-search-wrapper .search-container button:focus,
+.wp-block-button__link:hover,
+.wp-block-button__link:focus,
 #infinite-handle > span > button:hover,
 #infinite-handle > span > button:focus,
 nav.navigation.posts-navigation .nav-links a:hover,
@@ -12472,7 +12523,8 @@ input[type="color"]:focus,
 #site-generator #social-footer-navigation a:before,
 #primary-menu-wrapper #site-header-cart-wrapper,
 .site-header-top-main,
-.site-content + .recent-blog-content-wrapper {
+.site-content + .recent-blog-content-wrapper,
+#page > #site-header-menu #primary-menu-wrapper {
   border-color: #e6e6e6; }
 
 /* Text Color With Background */

@@ -38,12 +38,12 @@
         max-width: 601px;
     }
 
-    .archive-post-wrap .hentry .post-thumbnail-background + .entry-container {
+    .archive-post-wrap .hentry .post-thumbnail-background+.entry-container {
         padding: 320px 50px;
         padding-right: 140px;
     }
 
-    .archive-post-wrap .hentry:nth-child(2n) .post-thumbnail-background + .entry-container {
+    .archive-post-wrap .hentry:nth-child(2n) .post-thumbnail-background+.entry-container {
         padding-left: 140px;
         padding-right: 50px;
     }
@@ -56,7 +56,7 @@
         padding-top: 70px;
     }
 
-    .widget-column + .above-footer {
+    .widget-column+.above-footer {
         padding-top: 28px;
     }
 
@@ -181,8 +181,8 @@
     #footer-instagram .widget-title {
         margin: 84px auto 42px;
     }
-    
-    .site-footer-menu .wrapper > #social-footer-navigation {
+
+    .site-footer-menu .wrapper>#social-footer-navigation {
         padding: 42px 0;
     }
 
@@ -222,12 +222,12 @@
     .style-two.events-section .hentry-inner {
         padding: 70px;
     }
-    
+
     #contact-section .section-content-wrapper {
         padding: 91px 91px 61px;
     }
 
-    #contact-section .main-image + .inner-section-content-wrapper .section-content-wrapper {
+    #contact-section .main-image+.inner-section-content-wrapper .section-content-wrapper {
         margin: 350px auto 42px;
     }
 
@@ -275,30 +275,30 @@
         font-size: 5rem;
     }
 
-    .portfolio-section .entry-container > .entry-container-inner-wrap,
-    .portfolio-grid .archive-posts-wrapper .entry-container > .entry-container-inner-wrap {
+    .portfolio-section .entry-container>.entry-container-inner-wrap,
+    .portfolio-grid .archive-posts-wrapper .entry-container>.entry-container-inner-wrap {
         padding: 35px;
     }
 
-    body:not(.has-featured-slider):not(.has-header-media) .site-header + .section.portfolio-section .section-title {
+    body:not(.has-featured-slider):not(.has-header-media) .site-header+.section.portfolio-section .section-title {
         font-size: 49px;
         font-size: 3.0625rem;
     }
 
-    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-default .site-header + .section.portfolio-section .section-heading-wrapper,
-    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-music .site-header + .section.portfolio-section .section-heading-wrapper,
-    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-wedding .site-header + .section.portfolio-section .section-heading-wrapper {
+    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-default .site-header+.section.portfolio-section .section-heading-wrapper,
+    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-tune .site-header+.section.portfolio-section .section-heading-wrapper,
+    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-wedding .site-header+.section.portfolio-section .section-heading-wrapper {
         padding-bottom: 112px;
     }
 
-    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-personal .site-header + .section.portfolio-section .section-heading-wrapper,
-    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-portfolio .site-header + .section.portfolio-section .section-heading-wrapper,
-    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-photography .site-header + .section.portfolio-section .section-heading-wrapper,
-    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-ecommerce .site-header + .section.portfolio-section .section-heading-wrapper {
+    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-personal .site-header+.section.portfolio-section .section-heading-wrapper,
+    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-portfolio .site-header+.section.portfolio-section .section-heading-wrapper,
+    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-photography .site-header+.section.portfolio-section .section-heading-wrapper,
+    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-ecommerce .site-header+.section.portfolio-section .section-heading-wrapper {
         padding-bottom: 98px;
     }
 
-    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-corporate .site-header + .section.portfolio-section .section-heading-wrapper {
+    body:not(.has-featured-slider):not(.has-header-media).theme-scheme-corporate .site-header+.section.portfolio-section .section-heading-wrapper {
         padding-bottom: 84px;
     }
 

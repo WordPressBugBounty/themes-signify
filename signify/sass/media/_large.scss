@@ -3,7 +3,8 @@
  */
 
 @include media(large) {
-	.site-header .site-header-main .wrapper {
+	.site-header .site-header-main .wrapper,
+	#page > #site-header-menu {
 		padding: 0 40px;
 	}
 
@@ -16,7 +17,7 @@
 
 	.header-top-right .woocommerce-Price-amount {
 	    display: none;
-	}	
+	}
 
 	#header-top .wrapper {
 		display: block;
@@ -362,5 +363,10 @@
 
 	.transparent-header-color-scheme.header-style-one.has-header-top .site-header-main {
 		padding-top: 43px;
+	}
+
+	#page > #site-header-menu #primary-menu-wrapper #site-navigation {
+		margin: 0 auto;
+		width: fit-content;
 	}
 }

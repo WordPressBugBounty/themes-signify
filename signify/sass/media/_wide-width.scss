@@ -62,7 +62,8 @@
 
 	/* Woocommerce styles end here */
 
-	.site-header .site-header-main .wrapper{
+	.site-header .site-header-main .wrapper,
+	#page > #site-header-menu {
 		padding: 0 50px;
 	}
 
@@ -135,7 +136,7 @@
 	.textwidget h4 {
 		font-size: 26px;
 		font-size: 1.635rem;
-	}	   
+	}
 
 	#feature-slider-section .entry-summary,
     #feature-slider-section .entry-content,

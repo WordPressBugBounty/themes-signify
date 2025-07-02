@@ -15,10 +15,24 @@
 }
 
 .wrapper,
+#page > #site-header-menu,
 body:not(.header-media-text-disabled) .custom-header-media {
     margin: 0 auto;
     max-width: 1500px;
     width: 100%;
+}
+
+#page > #site-header-menu {
+    position: relative;
+}
+
+#page > #site-header-menu #primary-menu-wrapper {
+    border-bottom: 1px solid;
+    width: 100%;
+}
+
+#page > #site-header-menu #primary-menu-wrapper .menu-toggle {
+    margin: 0 auto;
 }
 
 .single,

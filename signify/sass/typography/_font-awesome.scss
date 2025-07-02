@@ -16,17 +16,17 @@
 .signify-mejs-container.mejs-container .mejs-button button:before,
 .nav-next .nav-subtitle:after,
 .nav-previous .nav-subtitle:before,
-.cat-links span + a:before,
-.tags-links span + a:before,
+.cat-links span+a:before,
+.tags-links span+a:before,
 .wp-playlist-playing .wp-playlist-item-length:before,
 .wp-custom-header-video-button:before,
 .search-toggle:before,
 .menu-toggle:before,
 .menu-toggle-close:before,
-.main-navigation .menu-item-has-children > a:after,
-.main-navigation .page_item_has_children > a:after,
-.top-navigation .menu-item-has-children > a:after,
-.top-navigation .page_item_has_children > a:after,
+.main-navigation .menu-item-has-children>a:after,
+.main-navigation .page_item_has_children>a:after,
+.top-navigation .menu-item-has-children>a:after,
+.top-navigation .page_item_has_children>a:after,
 .dropdown-toggle:after,
 .search-submit:before,
 .social-navigation a:before,
@@ -43,13 +43,14 @@
 .posts-navigation .nav-links .nav-next a:after,
 .comment-reply-title small a:before,
 .mejs-container .mejs-toggle-playlist button:before,
-.signify-mejs-container.mejs-container .mejs-play button:before, .signify-mejs-container.mejs-container .mejs-replay button:before,
+.signify-mejs-container.mejs-container .mejs-play button:before,
+.signify-mejs-container.mejs-container .mejs-replay button:before,
 #scrollup:before {
 	display: inline-block;
-	font-family: 'FontAwesome';
+	font-family: 'Font Awesome 6 Free';
 	font-style: normal;
 	font-variant: normal;
-	font-weight: normal;
+	font-weight: 900;
 	line-height: 1;
 	text-rendering: auto;
 	-webkit-font-smoothing: antialiased;
@@ -57,17 +58,17 @@
 }
 
 .mejs-container .mejs-toggle-playlist button:before {
-    content: "\f0ca";
+	content: "\f0ca";
 }
 
 .mejs-container .mejs-volume-button button:before {
-    content: "\f028";
+	content: "\f028";
 }
 
 .mejs-container .mejs-play button:before,
-.wp-playlist-playing .wp-playlist-item-length:before, 
+.wp-playlist-playing .wp-playlist-item-length:before,
 .mejs-container .mejs-replay button:before {
-    content: "\f04b";
+	content: "\f04b";
 }
 
 .posts-navigation .nav-links .nav-previous a:before {
@@ -148,15 +149,15 @@
 }
 
 .entry-meta span a:before {
-    margin-right: 13px;
+	margin-right: 13px;
 }
 
-.entry-footer .cat-links span + a:before {
-    content: "\f07b";
+.entry-footer .cat-links span+a:before {
+	content: "\f07b";
 }
 
-.entry-footer .tags-links span + a:before {
-    content: "\f02b";
+.entry-footer .tags-links span+a:before {
+	content: "\f02b";
 }
 
 .nav-next .nav-subtitle:after {

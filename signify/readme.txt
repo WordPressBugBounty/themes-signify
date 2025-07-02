@@ -2,8 +2,8 @@
 
 Contributors: wenthemes
 Tags: one-column, two-columns, right-sidebar, left-sidebar, custom-background, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-image-header, featured-images, flexible-header, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, news, photography, portfolio
-Requires at least: 5.6
-Tested up to: 6.4
+Requires at least: 5.9
+Tested up to: 6.8
 Requires PHP: 5.6
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -23,6 +23,11 @@ Signify is a free Responsive Corporate WordPress theme that comes with a modern,
 4. Navigate to Appearance -> Customize in your admin panel and customize to taste.
 
 == Changelog ==
+
+= 2.3 - Jul 02 2025 =
+* Add: Tiktok, Bluesky, X.com, Tel, Thread, Etsy, Deviantart, Behance, Bandcamp, Snapchat, Spotify, Telegram and other social icons
+* Update: Font Awesome to version 6.7.2
+* WP 6.8 compatibility
 
 = 2.2.2 - Jan 18 2024 =
 * WP 6.4 compatibility
@@ -140,7 +145,7 @@ Signify is a free Responsive Corporate WordPress theme that comes with a modern,
 
 == Copyright ==
 
-Signify WordPress Theme, Copyright 2015-2020 wenthemes.com
+Signify WordPress Theme, Copyright 2015-2025 wenthemes.com
 Signify is distributed under the terms of the GNU General Public License v3
 
 == Credits ==
