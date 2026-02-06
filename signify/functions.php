@@ -439,11 +439,6 @@ function signify_scripts()
 	// Theme block stylesheet.
 	wp_enqueue_style('signify-block-style', get_theme_file_uri('/css/blocks.css'), array('signify-style'), '1.0');
 
-	// Load the html5 shiv.
-	wp_enqueue_script('signify-html5',  get_template_directory_uri() . '/js/html5' . $min . '.js', null, '3.7.3');
-
-	wp_script_add_data('signify-html5', 'conditional', 'lt IE 9');
-
 	// Font Awesome
 	wp_enqueue_style('font-awesome', get_template_directory_uri() . '/css/font-awesome/css/all.min.css', array(), '6.7.2', 'all');
 
