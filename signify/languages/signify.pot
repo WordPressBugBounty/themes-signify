@@ -1,4 +1,4 @@
-# Copyright (C) 2015-2025 WEN Themes
+# Copyright (C) 2015-2026 WEN Themes
 # This file is distributed under the GNU General Public License, version 3 (GPLv3).
 #, fuzzy
 msgid ""
