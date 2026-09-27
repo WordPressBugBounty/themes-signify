@@ -14,7 +14,8 @@ if ( ! function_exists( 'signify_header_style' ) ) :
 	function signify_header_style() {
 		$header_image = signify_featured_overall_image();
 
-	    if ( 'disable' !== $header_image && has_header_image() ) : ?>
+	    // The image helpers can also return true (header video only) or false; only a real URL belongs in url().
+	    if ( is_string( $header_image ) && '' !== $header_image && 'disable' !== $header_image && has_header_image() ) : ?>
 	        <style type="text/css" rel="header-image">
 	            .custom-header .wrapper:before {
 	                background-image: url( <?php echo esc_url( $header_image ); ?>);

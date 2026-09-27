@@ -55,7 +55,7 @@
 	$( function() {
 
 		// Match Height of Featured Content
-		if ( $.isFunction( $.fn.MatchHeight ) ) {
+		if ( 'function' === typeof $.fn.MatchHeight ) {
 			$('#featured-content-section .entry-container').matchHeight();
 		}
 
@@ -482,7 +482,7 @@
 	});
 
 	// Portfolio Masonry.
-	if ( $.isFunction( $.fn.masonry ) ) { 
+	if ( 'function' === typeof $.fn.masonry ) { 
 		// Masonry blocks for portfolio.
 		$blocksPortfolio = $('.grid:not(.sptp-row)');
 		$blocksPortfolio.imagesLoaded(function(){
