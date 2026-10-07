@@ -24,6 +24,9 @@ Signify is a free Responsive Corporate WordPress theme that comes with a modern,
 
 == Changelog ==
 
+= 2.5.1 - Oct 07 2026 =
+* Bug Fixed: Child themes no longer fail the Theme Check widget area requirement; widget areas now load from a separate file
+
 = 2.5 - Sep 27 2026 =
 * Bug Fixed: Site no longer crashes when Google Fonts cannot be reached; fonts now fall back gracefully
 * Bug Fixed: Header video no longer makes browsers ask for local network access or re-request the page

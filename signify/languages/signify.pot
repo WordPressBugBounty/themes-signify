@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Signify\n"
 "Report-Msgid-Bugs-To: https://wenthemes.com/contact/\n"
-"POT-Creation-Date: 2026-09-27 16:38+0545\n"
+"POT-Creation-Date: 2026-10-07 15:03+0545\n"
 "PO-Revision-Date: 2016-12-07 01:05-0500\n"
 "Last-Translator: WEN Themes <info@wenthemes.com>\n"
 "Language-Team: WEN Themes <info@wenthemes.com>\n"
@@ -153,49 +153,25 @@ msgstr ""
 msgid "Dark Blue"
 msgstr ""
 
-#: ../functions.php:328
-msgid "Sidebar"
-msgstr ""
-
 #: ../functions.php:330
-msgid "Add widgets here."
-msgstr ""
-
-#: ../functions.php:336
-msgid "Footer 1"
-msgstr ""
-
-#: ../functions.php:338 ../functions.php:346 ../functions.php:354
-msgid "Add widgets here to appear in your footer."
-msgstr ""
-
-#: ../functions.php:344
-msgid "Footer 2"
-msgstr ""
-
-#: ../functions.php:352
-msgid "Footer 3"
-msgstr ""
-
-#: ../functions.php:378
 msgctxt "Open Sans: on or off"
 msgid "on"
 msgstr ""
 
-#: ../functions.php:384
+#: ../functions.php:336
 msgctxt "Playfair Display font: on or off"
 msgid "on"
 msgstr ""
 
-#: ../functions.php:485
+#: ../functions.php:437
 msgid "expand child menu"
 msgstr ""
 
-#: ../functions.php:486
+#: ../functions.php:438
 msgid "collapse child menu"
 msgstr ""
 
-#: ../functions.php:547 ../functions.php:572 ../functions.php:601
+#: ../functions.php:499 ../functions.php:524 ../functions.php:553
 msgid "Continue reading"
 msgstr ""
 
@@ -1187,6 +1163,30 @@ msgstr ""
 
 #: ../inc/widget-social-icons.php:122
 msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: ../inc/widgets.php:24
+msgid "Sidebar"
+msgstr ""
+
+#: ../inc/widgets.php:26
+msgid "Add widgets here."
+msgstr ""
+
+#: ../inc/widgets.php:32
+msgid "Footer 1"
+msgstr ""
+
+#: ../inc/widgets.php:34 ../inc/widgets.php:42 ../inc/widgets.php:50
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#: ../inc/widgets.php:40
+msgid "Footer 2"
+msgstr ""
+
+#: ../inc/widgets.php:48
+msgid "Footer 3"
 msgstr ""
 
 #: ../index.php:21
